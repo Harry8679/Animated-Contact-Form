@@ -9,6 +9,12 @@ html {
     font-size: 62.5%;
 }
 
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .container {
     width: 100%;
     height: 100vh;
@@ -22,4 +28,10 @@ html {
     height: 100%;
     background-color: #d8dde2;
     border-radius: 60rem 2rem;
+}
+
+.telephone {
+    width: 30rem;
+    height: 20rem;
+    background-color: #5f9ea0;
 }
