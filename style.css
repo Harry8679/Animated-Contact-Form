@@ -34,4 +34,24 @@ html {
     width: 30rem;
     height: 20rem;
     background-color: #5f9ea0;
+    border-radius: 100rem 100rem 20rem 20rem;
+    position: relative;
+}
+
+.telephone::before, .telephone::after {
+    content: '';
+    width: 7rem;
+    height: 22rem;
+    background-color: #5f9ea0;
+    position: absolute;
+    bottom: 0;
+    border-radius: 5rem 5rem 0 0;
+}
+
+.telephone::before {
+    left: 4rem;
+}
+
+.telephone::after {
+    right: 4rem;
 }
