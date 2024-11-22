@@ -38,6 +38,10 @@ html {
     position: relative;
 }
 
+.telephone > div {
+    position: absolute;
+}
+
 .telephone::before, .telephone::after {
     content: '';
     width: 7rem;
@@ -60,4 +64,36 @@ html {
     width: 40rem;
     height: 5rem;
     background-color: #df6281;
+    top: -7.2rem;
+    left: -5rem;
+    border-radius: 5rem;
+}
+
+.handset::before, .handset::after {
+    content: '';
+    position: absolute;
+    width: 6rem;
+    height: 4rem;
+    background-color: #f1bd78;
+    bottom: -4.3rem;
+    border-radius: 5rem;
+}
+
+.handset::before {
+    left: 0;
+}
+
+.handset::after {
+    right: 0;
+}
+
+.dialing-mechanism {
+    width: 10rem;
+    height: 10rem;
+    background-color: #d8dde2;
+    top: 5rem;
+    left: 10rem;
+    border-radius: 5rem;
+    border: 2.5rem dotted #b0c1e4;
+    z-index: 1;
 }
