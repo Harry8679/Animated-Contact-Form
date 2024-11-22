@@ -55,3 +55,9 @@ html {
 .telephone::after {
     right: 4rem;
 }
+
+.handset {
+    width: 40rem;
+    height: 5rem;
+    background-color: #df6281;
+}
